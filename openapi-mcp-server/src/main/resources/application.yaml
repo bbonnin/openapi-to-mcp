@@ -1,0 +1,13 @@
+spring:
+  ai:
+    mcp:
+      server:
+        protocol: STREAMABLE # STATELESS #
+        name: openapi-tool-server
+        version: 1.0.0
+        streamable-http:
+          # Default value, it's just to not forget the property name
+          mcp-endpoint: /mcp
+
+server:
+  port: 8000
